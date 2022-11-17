@@ -1,0 +1,8 @@
+package com.epam.mockitodemo;
+
+public class CalculatorTest {
+	CalculatorService service;
+	public void testAdd() {
+		
+	}
+}

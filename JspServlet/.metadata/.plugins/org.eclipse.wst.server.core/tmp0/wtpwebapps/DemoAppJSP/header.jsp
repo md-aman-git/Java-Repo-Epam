@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Page Content */
+.content {padding:20px;}
+</style>
+</head>
+<body>
+	<div class="header">
+	  <h1>Header</h1>
+	  <p>My supercool header</p>
+	</div>
+</body>
+</html>

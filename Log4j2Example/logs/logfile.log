@@ -1,0 +1,18 @@
+TRACE | 2022-02-17 16:21:10 | [main] log4jdemo.App (App.java:17) - This Will Be Printed On TRACE
+DEBUG | 2022-02-17 16:21:10 | [main] log4jdemo.App (App.java:18) - This Will Be Printed On Debug
+INFO  | 2022-02-17 16:21:10 | [main] log4jdemo.App (App.java:19) - This Will Be Printed On Info
+WARN  | 2022-02-17 16:21:10 | [main] log4jdemo.App (App.java:20) - This Will Be Printed On Warn
+ERROR | 2022-02-17 16:21:10 | [main] log4jdemo.App (App.java:21) - This Will Be Printed On Error
+FATAL | 2022-02-17 16:21:10 | [main] log4jdemo.App (App.java:22) - This Will Be Printed On Fatal
+INFO  | 2022-02-17 16:21:10 | [main] log4jdemo.App (App.java:24) - Appending string: Hello, World.
+DEBUG | 2022-02-17 16:21:59 | [main] log4jdemo.App (App.java:18) - This Will Be Printed On Debug
+INFO  | 2022-02-17 16:21:59 | [main] log4jdemo.App (App.java:19) - This Will Be Printed On Info
+WARN  | 2022-02-17 16:21:59 | [main] log4jdemo.App (App.java:20) - This Will Be Printed On Warn
+ERROR | 2022-02-17 16:21:59 | [main] log4jdemo.App (App.java:21) - This Will Be Printed On Error
+FATAL | 2022-02-17 16:21:59 | [main] log4jdemo.App (App.java:22) - This Will Be Printed On Fatal
+INFO  | 2022-02-17 16:21:59 | [main] log4jdemo.App (App.java:24) - Appending string: Hello, World.
+INFO  | 2022-02-17 16:22:18 | [main] log4jdemo.App (App.java:19) - This Will Be Printed On Info
+WARN  | 2022-02-17 16:22:18 | [main] log4jdemo.App (App.java:20) - This Will Be Printed On Warn
+ERROR | 2022-02-17 16:22:18 | [main] log4jdemo.App (App.java:21) - This Will Be Printed On Error
+FATAL | 2022-02-17 16:22:18 | [main] log4jdemo.App (App.java:22) - This Will Be Printed On Fatal
+INFO  | 2022-02-17 16:22:18 | [main] log4jdemo.App (App.java:24) - Appending string: Hello, World.

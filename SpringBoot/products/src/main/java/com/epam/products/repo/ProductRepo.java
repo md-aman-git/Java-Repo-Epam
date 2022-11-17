@@ -1,0 +1,14 @@
+package com.epam.products.repo;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.epam.products.entity.Product;
+
+@Repository
+public interface ProductRepo extends JpaRepository<Product, Integer> {
+	public List<Product> findAll();
+	public Product findById(int id);
+}

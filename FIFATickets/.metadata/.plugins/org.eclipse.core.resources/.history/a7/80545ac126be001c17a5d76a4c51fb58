@@ -1,0 +1,33 @@
+2022-04-17 13:39:30.353 [INFO] [restartedMain] [com.example.TicketBooking.TicketBookingApplication:55] Starting TicketBookingApplication using Java 17.0.2 on EPINPUNW039A with PID 11132 (C:\Users\Md_Aman\Documents\Project Ticket Booking New\fifa_ticketbooking\TicketBooking\TicketBooking\target\classes started by Md_Aman in C:\Users\Md_Aman\Documents\Project Ticket Booking New\fifa_ticketbooking\TicketBooking\TicketBooking)
+2022-04-17 13:39:30.362 [INFO] [restartedMain] [com.example.TicketBooking.TicketBookingApplication:640] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 13:39:30.414 [INFO] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-17 13:39:30.415 [INFO] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-17 13:39:31.159 [INFO] [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-17 13:39:31.275 [INFO] [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 102 ms. Found 11 JPA repository interfaces.
+2022-04-17 13:39:32.013 [INFO] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2022-04-17 13:39:32.026 [INFO] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-17 13:39:32.026 [INFO] [restartedMain] [org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+2022-04-17 13:39:32.027 [INFO] [restartedMain] [org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-17 13:39:32.306 [INFO] [restartedMain] [org.apache.jasper.servlet.TldScanner:173] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-04-17 13:39:32.319 [INFO] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+2022-04-17 13:39:32.319 [INFO] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 1904 ms
+2022-04-17 13:39:32.899 [INFO] [restartedMain] [com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2022-04-17 13:39:33.243 [INFO] [restartedMain] [com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2022-04-17 13:39:34.407 [INFO] [restartedMain] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-17 13:39:35.095 [WARN] [restartedMain] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-17 13:39:35.205 [DEBUG] [restartedMain] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:625] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-04-17 13:39:35.305 [DEBUG] [restartedMain] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:367] 46 mappings in 'requestMappingHandlerMapping'
+2022-04-17 13:39:35.313 [INFO] [restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:57] Adding welcome page template: index
+2022-04-17 13:39:35.348 [DEBUG] [restartedMain] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:188] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-04-17 13:39:35.360 [DEBUG] [restartedMain] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:307] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-04-17 13:39:35.517 [INFO] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+2022-04-17 13:39:35.531 [INFO] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-17 13:39:35.570 [INFO] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-17 13:39:35.579 [INFO] [restartedMain] [com.example.TicketBooking.TicketBookingApplication:61] Started TicketBookingApplication in 5.593 seconds (JVM running for 6.291)
+2022-04-17 13:39:35.582 [INFO] [restartedMain] [com.example.TicketBooking.TicketBookingApplication:22] Info log
+2022-04-17 13:39:35.583 [WARN] [restartedMain] [com.example.TicketBooking.TicketBookingApplication:23] Hey, This is a warning!
+2022-04-17 13:39:35.583 [ERROR] [restartedMain] [com.example.TicketBooking.TicketBookingApplication:24] Oops! We have an Error. OK
+2022-04-17 13:39:35.584 [ERROR] [restartedMain] [com.example.TicketBooking.TicketBookingApplication:25] Damn! Fatal error. Please fix me.
+2022-04-17 13:43:34.771 [INFO] [Thread-5] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-17 13:43:34.777 [INFO] [Thread-5] [com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2022-04-17 13:43:34.785 [INFO] [Thread-5] [com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.

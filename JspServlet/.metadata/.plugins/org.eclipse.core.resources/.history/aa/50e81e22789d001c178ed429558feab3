@@ -1,0 +1,21 @@
+<%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.Connection"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+	Class.forName("com.mysql.jdbc.Driver");
+	String username = "root", password = "aman@123";
+	Connection con = DriverManager
+			.getConnection("jdbc:mysql://localhost:3306/employee",
+			username, password);
+	Statement statement = con.createStatement();
+	%>
+</body>
+</html>

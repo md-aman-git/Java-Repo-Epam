@@ -1,0 +1,19 @@
+package com.epam.mockitodemo;
+
+public class CalculatorTest {
+	CalculatorService service;
+	
+	public void setUp() {
+		service = new CalculatorService() {
+			
+			@Override
+			public int add(int i, int j) {
+				// TODO Auto-generated method stub
+				return 0;
+			}
+		};
+	}
+	public void testAdd() {
+		
+	}
+}

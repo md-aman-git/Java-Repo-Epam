@@ -1,0 +1,34 @@
+
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- this below code snippet will work like import in java -->
+	<%@page import="java.io.IOException" %>
+	
+	<%!
+	//this will go outside of service method of servlet
+	//i.e, will work as global kind of thing
+	int value1 = 10;
+	void myMethod(JspWriter out) throws IOException {
+		String name = "Md Aman";
+		out.println("Hello, " + name);
+	}
+	%>
+	
+	
+	<%
+	//this will go inside service method of servlet
+	int value1 = 10;
+	int value2 = 20;
+	int result = value1 + value2;
+	out.println("Result : " + result);
+	
+	%>
+</body>
+</html>

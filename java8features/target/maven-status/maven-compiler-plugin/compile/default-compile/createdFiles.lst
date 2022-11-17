@@ -1,0 +1,17 @@
+com\epam\java8features\constructorreference\Addition.class
+com\epam\java8features\constructorreference\ConstructorReferenceDemo.class
+com\epam\java8features\defaultmethod\Animal.class
+com\epam\java8features\constructorreference\Operation.class
+com\epam\java8features\defaultmethod\Dog.class
+com\epam\java8features\lambdaexpress\CompareStudent.class
+com\epam\java8features\defaultmethod\Mammal.class
+com\epam\java8features\lambdaexpress\LambdaOperation.class
+com\epam\java8features\lambdaexpress\LambdaExpressionOperation.class
+com\epam\java8features\base64\Base64Encode.class
+com\epam\java8features\lambdaexpress\CompareClass.class
+com\epam\java8features\lambdaexpress\SortNumberLambda.class
+com\epam\java8features\datetimefeature\DateTimeFeature.class
+com\epam\java8features\App.class
+com\epam\java8features\lambdaexpress\Student.class
+com\epam\java8features\streamfeature\StreamFeature.class
+com\epam\java8features\optiondemo\OptionalDemo.class

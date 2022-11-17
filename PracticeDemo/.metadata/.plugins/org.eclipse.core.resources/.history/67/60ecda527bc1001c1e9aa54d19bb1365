@@ -1,0 +1,36 @@
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+
+public class Demo2 {
+
+//	0, 1, 1, 2, 3, 5
+//	static int fib(int n) {
+//		if(n <= 1) {
+//			return n;
+//		}
+//		return fib(n - 2) + fib(n - 1);
+//	}
+	static int binary(int [] arr, int n) {
+		int l = 0, r = arr.length - 1;
+		while(l <= r) {
+			int mid = l + r;
+			if(arr[mid] == n) {
+				return mid;
+			}
+			if(arr[mid] < n) {
+				l++;
+			}
+			else {
+				r--;
+			}
+		}
+		return -1;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [] arr = {-1, 0, 5, 7, 8, 10};
+		int n = 7;
+		int index = binary(arr, n);
+		System.out.println(index);
+	}
+
+}

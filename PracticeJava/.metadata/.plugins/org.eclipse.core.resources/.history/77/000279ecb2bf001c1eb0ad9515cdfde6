@@ -1,0 +1,14 @@
+package com.epam.practicecodes.stream;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class ProgramIntegers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Integer [] arr = {2, 4, 6, 1, 2, 6};
+		List<Integer> list = Arrays.asList(arr);
+	}
+
+}

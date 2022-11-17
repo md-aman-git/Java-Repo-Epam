@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TicketBooking/src/main/webapp/WEB-INF/views/fifa.html&apos; to &apos;signupEmail.html&apos;" description="Rename resource &apos;fifa.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/views/fifa.html" name="signupEmail.html" stamp="1647173739342" updateReferences="true"/>
+</session>

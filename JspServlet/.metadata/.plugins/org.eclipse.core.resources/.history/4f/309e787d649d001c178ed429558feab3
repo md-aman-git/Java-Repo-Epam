@@ -1,0 +1,28 @@
+package com.epam.servletconfcontext;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletContext;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class MyServlet extends HttpServlet {
+	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		PrintWriter out = response.getWriter();
+		out.println("Servlet Context Result -> All over the class any class same : ");
+		out.print("Hi, ");
+		
+		ServletContext ctx = getServletContext();
+		String str = ctx.getInitParameter("name");
+		out.print(str);
+		out.println("Servlet Config Result -> Different for each class if declared in web.xml : ");
+		out.print("Hi, ");
+		
+		ServletConfig conf = getServletConfig();
+		String strConf = conf.getInitParameter("name");
+		out.print(strConf);
+	}
+}

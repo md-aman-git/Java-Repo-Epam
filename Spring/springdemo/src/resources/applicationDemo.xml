@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+                http://www.springframework.org/schema/beans 
+                http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="custom" class="com.epam.springdemo.entity.Customer">
+		<constructor-arg index="0" value="123" />
+		<constructor-arg index="1" value="Aman" />
+	</bean>
+	<bean id="order" class="com.epam.springdemo.entity.Order">
+
+		<property name="customer" ref="custom" />
+	</bean>
+	<bean id = "msg" class = "com.epam.springdemo.entity.Message" scope ="singleton"/>
+
+</beans>

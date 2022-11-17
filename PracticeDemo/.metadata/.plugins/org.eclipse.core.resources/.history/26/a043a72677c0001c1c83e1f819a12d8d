@@ -1,0 +1,100 @@
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
+
+public class Demo {
+
+		public static void main(String[] args) {
+
+			Employee e1 = new Employee("Sravan", 23, "Hyderabad", 7, "Delivery");
+			Employee e2 = new Employee("Vishwas", 145, "Bangalore", 20, "Production");
+			Employee e3 = new Employee("Suvit", 67, "Pune", 12, "Core");
+			Employee e4 = new Employee("Dhiraj", 5236, "Pune", 15, "Core");
+			Employee e5 = new Employee("Anshu", 74545, "Pune", 9, "Delivery");
+			Employee e6 = new Employee("Pulkit", 15556, "Bangalore", 14, "Delivery");
+			Employee e7 = new Employee("Anuradha", 7852, "Pune", 14, "Production");
+			Employee e8 = new Employee("Srikrishna", 6712, "Hyderabad", 11, "Production");
+			Employee e9 = new Employee("Vidya", 2147, "Bangalore", 5, "Core");
+			Employee e10 = new Employee("Kunal", 12365, "Bangalore", 8, "Production");
+			Employee e11 = new Employee("Prashant", 2547, "Hyderabad", 6, "Production");
+			Employee e12 = new Employee("Walter", 62112, "Hyderabad", 10, "Delivery");
+
+			List<Employee> empList = Arrays.asList(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12);
+
+			empList.stream().filter(e -> {
+				System.out.println("Filtering");
+				return e.getCity().startsWith("P");
+			});
+			
+			Optional<Integer> maxId = empList.stream().map(a -> a.getEmpId()).max((a, b) -> a - b);
+			if(maxId.isPresent()) {
+				System.out.println(maxId);
+			}
+		}
+
+	}
+
+class Employee {
+
+	private String empName;
+	private int empId;
+	private String city;
+	private double baseSalaryInLakhs;
+	private String department;
+
+	public String getEmpName() {
+		return empName;
+	}
+
+	public void setEmpName(String empName) {
+		this.empName = empName;
+	}
+
+	public int getEmpId() {
+		return empId;
+	}
+
+	public void setEmpId(int empId) {
+		this.empId = empId;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	public double getBaseSalaryInLakhs() {
+		return baseSalaryInLakhs;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [empName=" + empName + ", empId=" + empId + ", city=" + city + ", baseSalaryInLakhs="
+				+ baseSalaryInLakhs + ", department=" + department + "]";
+	}
+
+	public Employee(String empName, int empId, String city, double baseSalaryInLakhs, String department) {
+		super();
+		this.empName = empName;
+		this.empId = empId;
+		this.city = city;
+		this.baseSalaryInLakhs = baseSalaryInLakhs;
+		this.department = department;
+	}
+
+	public void setBaseSalaryInLakhs(double baseSalaryInLakhs) {
+		this.baseSalaryInLakhs = baseSalaryInLakhs;
+	}
+
+	public String getDepartment() {
+		return department;
+	}
+
+	public void setDepartment(String department) {
+		this.department = department;
+	}
+
+}

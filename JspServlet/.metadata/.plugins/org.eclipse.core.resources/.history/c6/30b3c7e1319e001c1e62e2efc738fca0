@@ -1,0 +1,7 @@
+package com.epam.jstldemo;
+
+import javax.servlet.http.HttpServlet;
+
+public class MyServlet extends HttpServlet {
+
+}

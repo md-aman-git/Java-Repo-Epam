@@ -1,0 +1,21 @@
+package com.epam.mockitodemo;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.mockito.Mockito;
+
+public class CalculatorTest {
+	Calculator calculator;
+	
+	@Before
+	public void setUp() {
+		CalculatorService service = Mockito.mock(CalculatorService.class);
+		calculator = new Calculator(service);
+	}
+	@Test
+	public void testAdd() {
+		assertEquals(10, calculator.perform(2, 3));
+	}
+}

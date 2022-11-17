@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;springpractice/src/main/resources/applicationDemo.xml&apos; to &apos;applicationSpring.xml&apos;" description="Rename resource &apos;applicationDemo.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/applicationDemo.xml" name="applicationSpring.xml" stamp="1648642992967" updateReferences="true"/>
+</session>

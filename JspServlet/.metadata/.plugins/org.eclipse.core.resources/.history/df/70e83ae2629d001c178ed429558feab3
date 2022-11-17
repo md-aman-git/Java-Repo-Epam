@@ -1,0 +1,5 @@
+package com.epam.servletconfcontext;
+
+public class MyServlet {
+
+}
